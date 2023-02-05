@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pink</title>
+</head>
+<body class="page__body">
+  <header class="page-header">
+    <div class="page-header__wrapper">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/logo-mobile.svg" width="74" height="25" alt="Логотип">
+      </a>
+
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="#">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#">HTML Academy</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-main catalog">
+    <h1 class="catalog__header">Фотографии пользователей</h1>
+    <p>Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+
+    <div class="catalog__panorama">
+      <img src="img/panorama-mobile.png" width="320" height="137" alt="Изображение">
+      <span class="item__author">Анна</span>
+      <span class="item__time-ago">(5 минут назад)</span>
+      <p class="item__comment">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую траснсляцию в перископе, задавайте свои вопросы!</p>
+      <p class="item__likes">
+        Нравится:
+        <span class="item__likes-count">215</span>
+      </p>
+    </div>
+
+    <ul class="catalog__list photo__list catalog__wrapper">
+      <li class="photo__item">
+        <img src="img/photo-1-mobile.png" width="280" height="180" alt="Изображение">
+        <span class="item__author">Левон</span>
+        <span class="item__time-ago">(5 часов назад)</span>
+        <p class="item__comment">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+        <p class="item__likes">
+          Нравится:
+          <span class="item__likes-count">356</span>
+        </p>
+      </li>
+      <li class="photo__item">
+        <img src="img/photo-2-mobile.png" width="280" height="180" alt="Изображение">
+        <span class="item__author">Антон</span>
+        <span class="item__time-ago">(12 часов назад)</span>
+        <p class="item__comment">Соседи будут рады!</p>
+        <p class="item__likes">
+          Нравится:
+          <span class="item__likes-count">666</span>
+        </p>
+      </li>
+      <li class="photo__item">
+        <img src="img/photo-3-mobile.png" width="280" height="180" alt="Изображение">
+        <span class="item__author">Борис</span>
+        <span class="item__time-ago">(20 часов назад)</span>
+        <p class="item__comment">Здесь могла быть ваша цитата о высоком и вечном.</p>
+        <p class="item__likes">
+          Нравится:
+          <span class="item__likes-count">215</span>
+        </p>
+      </li>
+      <li class="photo__item">
+        <img src="img/photo-4-mobile.png" width="280" height="180" alt="Изображение">
+        <span class="item__author">Сергей</span>
+        <span class="item__time-ago">(25 часов назад)</span>
+        <p class="item__comment">Самая кубанская в мире!</p>
+        <p class="item__likes">
+          Нравится:
+          <span class="item__likes-count">4</span>
+        </p>
+      </li>
+      <li class="photo__item">
+        <img src="img/photo-5-mobile.png" width="280" height="180" alt="Изображение">
+        <span class="item__author">Максим</span>
+        <span class="item__time-ago">(40 часов назад)</span>
+        <p class="item__comment">Где снег-то?</p>
+        <p class="item__likes">
+          Нравится:
+          <span class="item__likes-count">150</span>
+        </p>
+      </li>
+      <li class="photo__item">
+        <img src="img/photo-6-mobile.png" width="280" height="180" alt="Изображение">
+        <span class="item__author">Надежа</span>
+        <span class="item__time-ago">(45 часов назад)</span>
+        <p class="item__comment">Всем GM и взамимные лайки!</p>
+        <p class="item__likes">
+          Нравится:
+          <span class="item__likes-count">2560</span>
+        </p>
+      </li>
+    </ul>
+
+    <form class="upload-form" action="https://echo.htmlacademy.ru" method="POST">
+      <h2 class="upload-form__header">Выкладывайте все, что накопилось в телефоне</h2>
+
+      <img class="upload-form__image" src="img/preview-photo-mobile.png" width="280" height="374" alt="Предпросмотр изображения">
+      <input class="upload-form__input visually-hidden" type="file" id="upload-file" name="filename" required>
+      <label for="upload-file">Загрузить</label>
+
+      <fieldset class="effects">
+        <legend>Эффекты для фотографии</legend>
+        <ul class="effects__list">
+          <li class="effects__item crop">Crop</li>
+          <li class="effects__item fill">Fill</li>
+          <li class="effects__item contrast">Contrast</li>
+        </ul>
+      </fieldset>
+
+      <fieldset class="effect-level">
+        <legend>Эффект для фотографии</legend>
+        <input class="effect-level__value" type="number" name="effect-level" value="80">
+        <div class="effect-level__line">
+          <div class="effect-level__pin">Пин изменения глубины эффекта</div>
+          <div class="effect-level__depth">Глубина эффекта фотографии</div>
+        </div>
+      </fieldset>
+
+      <button type="submit">Запостить</button>
+      <button type="reset" disabled>Отмена</button>
+    </form>
+  </main>
+
+  <footer class="page-footer">
+    <div class="footer__wrapper">
+      <div class="page-footer__logo">
+        <a class="page-footer__logo-image">
+          <img class="page-footer__logo-image" src="img/logotype-footer-mobile.svg" width="145" height="40" alt="Логотип">
+        </a>
+      </div>
+
+      <div class="page-footer__social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a class="social__link social__link--twitter" href="#">
+              <span>Twitter</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--facebook" href="#">
+              <span>Facebook</span>
+            </a>
+          </li>
+          <li class="social__item">
+            <a class="social__link social__link--youtube" href="#">
+              <span>Youtube</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="page-footer__copyright">
+        <span class="copyright__text">Разработано:</span>
+        <a class="copyright__link" href="#">
+          <span>HTML Academy</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
