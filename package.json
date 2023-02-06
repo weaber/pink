@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "learning project pink",
   "scripts": {
-    "stylelint": "stylelint \"source/sass/**/*.scss\" --syntax scss",
-    "lint": "npm run editorconfig && npm run stylelint",
+    "stylelint": "stylelint **/*.scss",
+    "lint": "npm run stylelint",
     "build": "gulp styles",
     "start": "gulp"
   },
@@ -27,7 +27,9 @@
     "gulp-postcss": "^9.0.1",
     "linthtml-config-htmlacademy": "^1.0.3",
     "postcss": "^8.3.11",
-    "stylelint-config-htmlacademy": "^1.1.4"
+    "stylelint": "^14.16.1",
+    "stylelint-config-htmlacademy": "^1.1.4",
+    "stylelint-config-standard-scss": "^6.1.0"
   },
   "type": "module"
 }
