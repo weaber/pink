@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
   <title>Pink</title>
 </head>
 <body class="page__body">
@@ -30,90 +31,90 @@
           </li>
         </ul>
       </nav>
+      <h1 class="form-header">Конкурс на самое безбашенное путешествие с Пинк</h1>
     </div>
   </header>
 
   <main class="page-main">
     <div class="page-main__wrapper">
-      <h1 class="page-main__header">Конкурс на самое безбашенное путешествие с Пинк</h1>
       <form class="form" action="https://echo.htmlacademy.ru" method="POST">
         <h2>Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту</h2>
 
-        <fieldset class="form__personal personal">
+        <fieldset class="form__personal personal-fieldset">
           <legend>Персональные данные</legend>
-          <ul class="personal__list">
-            <li class="personal__item">
+          <ul class="personal-fieldset__list">
+            <li class="personal-fieldset__item">
               <label for="surname">Фамилия:</label>
               <input type="text" name="surname" id="surname" placeholder="Укажите фамилию *">
             </li>
-            <li class="personal__item">
+            <li class="personal-fieldset__item">
               <label for="name">Имя:</label>
               <input type="text" name="name" id="name" placeholder="Введите ваше имя *">
             </li>
-            <li class="personal__item">
+            <li class="personal-fieldset__item">
               <label for="middle-name">Отчество:</label>
               <input type="text" name="middle-name" id="middle-name" placeholder="Ну и отчество тоже">
             </li>
           </ul>
         </fieldset>
 
-        <fieldset class="form__achievements achievements">
+        <fieldset class="form__achievements achievements-fieldset">
           <legend>Ваши безбашенные достижения в путешествии</legend>
 
-          <ul class="achiements__list">
-            <li class="achievements__item">
+          <ul class="achiements-fieldset__list">
+            <li class="achievements-fieldset__item">
               <input type="checkbox" name="shark" id="shark" checked>
-              <label for="shark">Сделал селфи с акулой</label>>
+              <label for="shark">Сделал селфи с акулой</label>
             </li>
-            <li class="achievements__item">
+            <li class="achievement-fieldsets__item">
               <input type="checkbox" name="beach" id="beach" checked>
-              <label for="beach">Обгорел на пляже</label>>
+              <label for="beach">Обгорел на пляже</label>
             </li>
-            <li class="achievements__item">
+            <li class="achievements-fieldset__item">
               <input type="checkbox" name="chuck" id="chuck">
-              <label for="chuck">Видел Чака Норриса</label>>
+              <label for="chuck">Видел Чака Норриса</label>
             </li>
-            <li class="achievements__item">
+            <li class="achievements-fieldset__item">
               <input type="checkbox" name="souvenirs" id="souvenirs">
-              <label for="souvenirs">Накупил сувениров</label>>
+              <label for="souvenirs">Накупил сувениров</label>
             </li>
-            <li class="achievements__item">
+            <li class="achievements-fieldset__item">
               <input type="checkbox" name="tower" id="tower" checked>
-              <label for="tower">Удержал башню</label>>
+              <label for="tower">Удержал башню</label>
             </li>
-            <li class="achievements__item">
+            <li class="achievements-fieldset__item">
               <input type="checkbox" name="hotel" id="hotel">
-              <label for="hotel">Разгромил отель</label>>
+              <label for="hotel">Разгромил отель</label>
             </li>
           </ul>
         </fieldset>
 
-        <fieldset class="form__contacts contacts">
+        <fieldset class="form__contacts contacts-fieldset">
           <legend>Контактные данные</legend>
-          <ul class="contacts__list">
-            <li class="contacts__item">
+          <ul class="contacts-fieldset__list">
+            <li class="contacts-fieldset__item">
               <label for="phone">Номер телефона</label>
               <input type="tel" name="phone" id="phone" placeholder="Номер, пожалуйста">
             </li>
-            <li class="contacts__item">
+            <li class="contacts-fieldset__item">
               <label for="mail">Адрес почты</label>
               <input type="email" name="mail" id="mail" placeholder="Введите почту *">
             </li>
           </ul>
         </fieldset>
 
-        <fieldset class="form__application application">
+        <fieldset class="form__application application-fieldset">
           <legend>С каким приложением путешествовали?</legend>
-          <ul class="application__list">
-            <li class="application__item">
+          <ul class="application-fieldset__list">
+            <li class="application-fieldset__item">
               <input type="radio" name="application" id="ios" value="ios" checked>
-              <label for="ios">Pink на iOS</label>
+              <label for="ios">Pink для iOS</label>
             </li>
-            <li class="application__item">
+            <li class="application-fieldset__item">
               <input type="radio" name="application" id="android" value="android">
               <label for="android">Pink на Android</label>
             </li>
-            <li class="application__item">
+            <li class="application-fieldset__item">
               <input type="radio" name="application" id="windows" value="windows">
               <label for="windows">Windows Phone</label>
             </li>
@@ -126,7 +127,7 @@
         </div>
 
         <button class="button form__button" type="submit">Отправить форму</button>
-        <p>* - Обязательные поля</p>
+        <p class="form__fields-required"><span>*</span> &mdash; Обязательные поля</p>
       </form>
     </div>
   </main>

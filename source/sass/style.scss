@@ -1,6 +1,8 @@
 @import "variables";
 @import "fonts";
 @import "common";
+
+// Index
 @import "blocks/page-header";
 @import "blocks/site-list";
 @import "blocks/intro";
@@ -10,3 +12,12 @@
 @import "blocks/reviews";
 @import "blocks/prices";
 @import "blocks/contacts";
+
+// Form
+@import "blocks/form-header";
+@import "blocks/form";
+@import "blocks/personal-fieldset";
+@import "blocks/achievements-fieldset";
+@import "blocks/contacts-fieldset";
+@import "blocks/application-fieldset";
+@import "blocks/feedback";
