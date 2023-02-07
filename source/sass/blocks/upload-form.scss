@@ -1,0 +1,28 @@
+.upload-form__header {
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: $basic-grey;
+}
+
+.upload-form__button {
+  font-family: $main-font;
+  width: 280px;
+  padding: 16px 0;
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  color: $pink;
+  background-color: $dirty-white;
+  border: 3px solid $pink;
+  border-radius: 30px;
+}
+
+.upload-form__button--disabled {
+  opacity: 0.1;
+  color: $basic-grey;
+  border-color: $basic-grey;
+}
+

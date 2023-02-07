@@ -1,0 +1,26 @@
+.site-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-list__item {
+  margin-bottom: 1px;
+}
+
+.site-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.site-list__item a {
+  width: 280px;
+  padding: 25px 0;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $white;
+  background-color: $basic-grey;
+}

@@ -1,0 +1,19 @@
+.application-fieldset {
+  background-color: $dirty-white;
+}
+
+.application-fieldset legend {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $pink;
+}
+
+.application-fieldset__list {
+  list-style: none;
+}
+
+.application-fieldset__item label {
+  font-size: 18px;
+  line-height: 30px;
+}

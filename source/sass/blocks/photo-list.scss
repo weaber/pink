@@ -1,0 +1,30 @@
+.photo-list {
+  list-style: none;
+}
+
+.photo-list__author {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.photo-list__time-ago {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.photo-list__comment {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.photo-list__likes {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $pink;
+}
