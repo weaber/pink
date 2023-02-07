@@ -1,0 +1,26 @@
+.panorama__author {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.panorama__time-ago {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.panorama__comment {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.panorama__likes {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: $pink;
+}

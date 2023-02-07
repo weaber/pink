@@ -1,16 +1,16 @@
 .prices-table__header {
   text-transform: uppercase;
   color: $white;
-  background-color: $light-grey;
+  background-color: $basic-grey;
 }
 
 .prices-table__option {
-  background-color: $very-light-grey;
+  background-color: $light-grey;
 }
 
 .prices-table__option--name {
   font-size: 14px;
   line-height: 30px;
   text-transform: uppercase;
-  color: $light-grey;
+  color: $basic-grey;
 }
