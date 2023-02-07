@@ -1,5 +1,14 @@
 .page-header {
-  margin: 0;
-  padding: 0;
-  background-color: grey;
+  background-color: $black;
+}
+
+.page-header__wrapper {
+  margin: 0 auto;
+  padding: 0 20px;
+  background-color: $basic-grey;
+}
+
+.page-header__logo {
+  width: 280px;
+  padding: 25px 0;
 }

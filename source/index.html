@@ -59,27 +59,26 @@
             </a>
           </li>
         </ul>
-
-        <p>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+        <p class="intro__desc">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
       </div>
     </section>
 
     <section class="information">
       <div class="information__wrapper">
         <h2 class="visually-hidden">Информация о приложении</h2>
-        <p>Устали от серости мегаполиса?</p>
-        <p>Нам есть, что вам предложить!</p>
+        <p class="information__slogan">Устали от серости мегаполиса?</p>
+        <p class="information__slogan">Нам есть, что вам предложить!</p>
 
-        <ul class="information__list description__list">
-          <li class="description__item description__item--mood">
+        <ul class="information__list description-list">
+          <li class="description-list__item description-list__item--mood">
             <h3>Поднимает настроение</h3>
             <p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
           </li>
-          <li class="description__item description__item-world">
+          <li class="description-list__item description-list__item-world">
             <h3>Меняет мир вокруг</h3>
             <p>Сделайте снимок и украсьте его смайликом, или текстовой подписью, чтобы училить эффект</p>
           </li>
-          <li class="description__item description__item--friends">
+          <li class="description-list__item description-list__item--friends">
             <h3>Заводит новых друзей</h3>
             <p>Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </li>
@@ -100,20 +99,20 @@
         <h2 class="visually-hidden">Отзывы</h2>
 
         <ul class="reviews__list slider__list">
-          <li class="reviews__list-item slider__item">
-            <p class="review__author">Николай Петров</p>
-            <p class="review__about-author">25 лет, водитель трамвая</p>
-            <p class="review__text">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии"</p>
+          <li class="reviews__item slider__item">
+            <p class="reviews__author">Николай Петров</p>
+            <p class="reviews__about-author">25 лет, водитель трамвая</p>
+            <p class="reviews__text">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
           </li>
-          <li class="reviews__list-item slider__item">
-            <p class="review__author"></p>
-            <p class="review__about-author"></p>
-            <p class="review__text"></p>
+          <li class="reviews__item slider__item">
+            <p class="reviews__author">Николай Петров 2</p>
+            <p class="reviews__about-author">25 лет, водитель трамвая</p>
+            <p class="reviews__text">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
           </li>
-          <li class="reviews__list-item slider__item">
-            <p class="review__author"></p>
-            <p class="review__about-author"></p>
-            <p class="review__text"></p>
+          <li class="reviews__item slider__item">
+            <p class="reviews__author">Николай Петров 3</p>
+            <p class="reviews__about-author">25 лет, водитель трамвая</p>
+            <p class="reviews__text">&laquo;Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!&raquo;</p>
           </li>
         </ul>
         <button class="reviews__prev" type="button">Предыдущий отзыв</button>
@@ -129,33 +128,33 @@
     <section class="prices">
       <div class="price__wrapper">
         <h2 class="visually-hidden">Тарифы</h2>
-        <table class="prices__table">
-          <thead>
+        <table class="prices-table">
+          <thead class="prices-table__head">
             <tr>
               <td></td>
-              <td>База</td>
-              <td>Стандарт</td>
-              <td>Анлим</td>
+              <td class="prices-table__header">База 1.99 USD</td>
+              <td class="prices-table__header prices-table__header-hit">Стандарт 3.99 USD</td>
+              <td class="prices-table__header">Анлим 9.99 USD</td>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Розовый фильтр</td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td class="prices-table__option prices-table__option--name">Розовый фильтр</td>
+              <td class="prices-table__option prices-table__option--checked"></td>
+              <td class="prices-table__option prices-table__option--checked"></td>
+              <td class="prices-table__option prices-table__option--checked"></td>
             </tr>
             <tr>
-              <td>Смайлики</td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td class="prices-table__option prices-table__option--name">Смайлики</td>
+              <td class="prices-table__option prices-table__option--checked"></td>
+              <td class="prices-table__option prices-table__option--missed"></td>
+              <td class="prices-table__option prices-table__option--missed"></td>
             </tr>
             <tr>
-              <td>Комментарии</td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td class="prices-table__option prices-table__option--name">Комментарии</td>
+              <td class="prices-table__option prices-table__option--missed"></td>
+              <td class="prices-table__option prices-table__option--missed"></td>
+              <td class="prices-table__option prices-table__option--checked"></td>
             </tr>
           </tbody>
         </table>
@@ -171,18 +170,18 @@
     <section class="contacts">
       <div class="contacts__wrapper">
         <h2 class="contacts__header"> Остались вопросы? Свяжитесь с нами!</h2>
-        <div class="contacts__phone">
-          <h3>Звоните</h3>
-          <p>+7 812 555 66 66</p>
+        <div class="contacts__contact">
+          <h3>Звоните:</h3>
+          <p>+7 (812) 555-66-66</p>
         </div>
 
-        <div class="contacts__mail">
-          <h3>Пишите</h3>
+        <div class="contacts__contact">
+          <h3>Пишите:</h3>
           <p>mail@htmlacademy.ru</p>
         </div>
 
-        <div class="contacts__address">
-          <h3>Приезжайте в гости</h3>
+        <div class="contacts__contact">
+          <h3>Приезжайте в гости:</h3>
           <p>ул. Большая Конюшенная, 19/8</p>
         </div>
       </div>

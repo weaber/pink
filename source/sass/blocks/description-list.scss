@@ -1,0 +1,15 @@
+.description-list {
+  list-style: none;
+}
+
+.description-list__item h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.description-list__item p {
+  font-size: 14px;
+  line-height: 24px;
+  color: $light-grey;
+}
