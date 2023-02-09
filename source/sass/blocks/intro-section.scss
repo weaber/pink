@@ -1,0 +1,19 @@
+.intro-section {
+  box-sizing: border-box;
+  padding: 0 20px;
+  padding-top: 25px;
+  min-height: 395px;
+  background-image: url("../img/phone-hand-mobile.png");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.intro-section__header {
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+  line-height: 120%;
+  font-weight: 300;
+  color: $white;
+}
+

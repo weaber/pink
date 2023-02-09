@@ -1,14 +1,26 @@
 .page__body {
+  width: $mobile-width;
   margin: 0 auto;
-  width: 320px;
   font-family: $main-font;
 }
 
-a {
-  display: inline-block;
+@media (min-width: $tablet-width) {
+  .page__body {
+    width: $tablet-width;
+  }
 }
 
-.visually-hidden {
+@media (min-width: $desktop-width) {
+  .page__body {
+    width: $desktop-width;
+  }
+}
+
+a {
+  display: block;
+}
+
+.visually-hidden:not(:focus):not(:active) {
   position: absolute;
   width: 1px;
   height: 1px;
